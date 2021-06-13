@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="https://i.ibb.co/pnRfx1G/7.jpg">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        width: 100vw;
+        height: 100vh;
+        background:url(https://i.ibb.co/pnRfx1G/7.jpg) no-repeat center;
+        background-size: cover;
+        display: grid;
+        place-items: center;
+    }
+    .container{
+        width: 327px;
+        height:480px;
+        background: rgba(0,0,0,0.1);
+        backdrop-filter: blur(30px);
+        border-radius: 5px;
+        box-shadow: 0 0 30px rgba(0,0,0,.5);
+    }
+    #logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 50px;
+        box-shadow: 0 0 25px rgba(255,255,255,.5);
+        }
+    input[type="email"],[type="password"]
+    {
+        width:90%;
+        margin-left:5%;
+        margin-bottom:8%;
+        background-color: transparent;
+        color:white;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+        font-size: 24px;
+        text-align: center;
+        caret-color: crimson;
+
+    }
+    .btn{
+        margin-top:30px;
+    }
+    .btn:hover
+    {
+        cursor: pointer;
+    }
+    .btn2
+{
+    width: 80%;
+    height:40px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, .4);
+    display: block;   
+}
+    ::placeholder
+    {
+        color:white;
+        text-align: center;
+    }
+ 
+</style>
+<body>
+    <div class="container">
+        <form action="">
+            <center><img src="https://i.ibb.co/pnRfx1G/7.jpg" alt="logo" id="logo"></center>
+            <input type="email" required placeholder="Username" >
+            <input type="password" placeholder="password" required>
+           <center><input type="submit" class="btn" style="width:80%; height: 40px;  font-size: 20px; color: white;background-color:rgba(255, 255, 255, .4); outline: none; border:0px;"></center> <br>
+           
+           <center><a href="./Tut1_p9.html" class="btn2" style="text-decoration: none; color:white">Registration</a></center>
+           
+            <center><a href="#" style="text-decoration: none;  color:white">Forgot Password?</a></center>
+        </form>
+    </div>
+</body>
+</html>
